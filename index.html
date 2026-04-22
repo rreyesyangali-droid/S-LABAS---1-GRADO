@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boleta de Información 2026 - San José Obrero</title>
+    <title>Boleta de Información 2026</title>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --guinda: #6B0020;
-            --guinda-dark: #4a0015;
-            --guinda-light: #f9f0f2;
+            --guinda: #8B1030;
+            --guinda-dark: #6B0020;
+            --guinda-light: #faf2f4;
             --gold: #b8860b;
             --border: #333;
             --text: #1a1a1a;
@@ -79,7 +79,7 @@
         .title-main h2 {
             margin: 0;
             font-family: 'Crimson Pro', Georgia, serif;
-            font-size: 20px;
+            font-size: 22px;
             line-height: 1.45;
             color: var(--guinda);
             font-weight: 700;
@@ -87,7 +87,7 @@
         }
 
         .title-main .subtitle-line {
-            font-size: 13px;
+            font-size: 14.5px;
             color: #555;
             margin-top: 4px;
             font-weight: 600;
@@ -122,7 +122,7 @@
             width: 100%;
             border-collapse: collapse;
             margin-bottom: 18px;
-            font-size: 13.5px;
+            font-size: 15px;
         }
 
         .header-table td {
@@ -141,7 +141,7 @@
             color: #fff !important;
             width: 17%;
             text-transform: uppercase;
-            font-size: 11.5px;
+            font-size: 13px;
             letter-spacing: 0.5px;
             white-space: nowrap;
         }
@@ -150,7 +150,7 @@
             width: 100%;
             border: none;
             background: transparent;
-            font-size: 13.5px;
+            font-size: 15px;
             font-family: inherit;
             font-weight: 700;
             color: #222;
@@ -166,9 +166,9 @@
 
         .main-table th, .main-table td {
             border: 1px solid #888;
-            padding: 4px 3px;
+            padding: 3px 2px;
             text-align: center;
-            font-size: 9.8px;
+            font-size: 9.5px;
             vertical-align: middle;
         }
 
@@ -176,16 +176,16 @@
             background: var(--guinda);
             color: #fff;
             font-weight: 700;
-            font-size: 10.5px;
-            height: 38px;
+            font-size: 10px;
+            height: 32px;
             letter-spacing: 0.2px;
         }
 
         /* Subheader row */
         .main-table thead tr:nth-child(2) th {
             background: var(--guinda-dark);
-            font-size: 9.5px;
-            height: 30px;
+            font-size: 9px;
+            height: 26px;
         }
 
         .area-cell {
@@ -193,7 +193,7 @@
             font-weight: 700;
             width: 11%;
             text-transform: uppercase;
-            font-size: 10px;
+            font-size: 9.5px;
             color: var(--guinda);
             letter-spacing: 0.3px;
             border-right: 2px solid var(--guinda) !important;
@@ -205,10 +205,10 @@
             width: 22%;
             background: #fff !important;
             line-height: 1.3;
-            font-size: 9.8px;
+            font-size: 9.5px;
         }
 
-        .nota-col { width: 42px; }
+        .nota-col { width: 22px; }
 
         .main-table tbody tr:nth-child(even) td:not(.area-cell):not(.comp-cell) {
             background: #fdf9fa;
@@ -216,8 +216,8 @@
 
         /* Nota select styling */
         .main-table select {
-            padding: 2px;
-            font-size: 11px;
+            padding: 1px;
+            font-size: 10px;
             cursor: pointer;
             border: 1px solid #ccc;
             border-radius: 3px;
@@ -228,24 +228,25 @@
 
         .main-table textarea {
             width: 97%;
-            height: 50px;
-            font-size: 8.5px;
+            height: 40px;
+            font-size: 7.5px;
             resize: none;
             border: 1px solid #ddd;
             font-family: inherit;
             display: block;
             margin: 1px auto;
             border-radius: 2px;
-            padding: 3px;
+            padding: 2px;
             line-height: 1.3;
         }
 
         /* Final nota cell */
         td[id^="f-"] {
             font-weight: 800;
-            font-size: 13px;
+            font-size: 15px;
             color: var(--guinda);
             background: var(--guinda-light) !important;
+            width: 90px;
         }
 
         /* ===== SITUACIÓN FINAL ===== */
@@ -263,14 +264,14 @@
             flex-wrap: wrap;
             gap: 10px;
             font-weight: 700;
-            font-size: 14px;
+            font-size: 15.5px;
             color: var(--guinda);
             text-transform: uppercase;
             letter-spacing: 0.3px;
         }
 
         .situacion-row select {
-            font-size: 14px;
+            font-size: 15.5px;
             font-weight: 700;
             color: var(--guinda);
             border: 2px solid var(--guinda);
@@ -285,7 +286,7 @@
             border-bottom: 2px solid var(--guinda);
             flex: 1;
             min-width: 200px;
-            font-size: 14px;
+            font-size: 15.5px;
             padding: 2px 4px;
             background: transparent;
             font-weight: 700;
@@ -310,7 +311,7 @@
             border-top: 1.5px solid #333;
             width: 240px;
             text-align: center;
-            font-size: 12px;
+            font-size: 13.5px;
             padding-top: 6px;
             font-weight: 700;
             text-transform: uppercase;
@@ -339,6 +340,12 @@
         @media print {
             .btn-print { display: none; }
             body { background: white; margin: 0; padding: 0; }
+            @page {
+                margin: 1cm;
+                /* Oculta encabezado y pie de página del navegador al imprimir */
+                size: auto;
+            }
+            head title { display: none; }
             .container {
                 box-shadow: none;
                 border: none;
@@ -439,17 +446,17 @@
             <tr>
                 <th rowspan="2">Área Curricular</th>
                 <th rowspan="2">Competencias</th>
-                <th colspan="2">Bimestre I</th>
-                <th colspan="2">Bimestre II</th>
-                <th colspan="2">Bimestre III</th>
-                <th colspan="2">Bimestre IV</th>
-                <th rowspan="2" class="nota-col" style="font-size:10px; line-height:1.3;">Nivel de Logro alcanzado al finalizar el período lectivo</th>
+                <th colspan="2" style="font-size:15px; font-weight:900; letter-spacing:0.5px;">Bimestre I</th>
+                <th colspan="2" style="font-size:15px; font-weight:900; letter-spacing:0.5px;">Bimestre II</th>
+                <th colspan="2" style="font-size:15px; font-weight:900; letter-spacing:0.5px;">Bimestre III</th>
+                <th colspan="2" style="font-size:15px; font-weight:900; letter-spacing:0.5px;">Bimestre IV</th>
+                <th rowspan="2" style="width:90px; font-size:11px; line-height:1.4; font-weight:800;">Nivel de Logro alcanzado al finalizar el período lectivo</th>
             </tr>
             <tr>
-                <th class="nota-col">Nota</th><th>Conclusión Descriptiva</th>
-                <th class="nota-col">Nota</th><th>Conclusión Descriptiva</th>
-                <th class="nota-col">Nota</th><th>Conclusión Descriptiva</th>
-                <th class="nota-col">Nota</th><th>Conclusión Descriptiva</th>
+                <th class="nota-col" style="font-size:13px; font-weight:900;">Nota</th><th style="width:60px; font-size:10px; font-weight:700;">Conclusiones descriptivas</th>
+                <th class="nota-col" style="font-size:13px; font-weight:900;">Nota</th><th style="width:60px; font-size:10px; font-weight:700;">Conclusiones descriptivas</th>
+                <th class="nota-col" style="font-size:13px; font-weight:900;">Nota</th><th style="width:60px; font-size:10px; font-weight:700;">Conclusiones descriptivas</th>
+                <th class="nota-col" style="font-size:13px; font-weight:900;">Nota</th><th style="width:60px; font-size:10px; font-weight:700;">Conclusiones descriptivas</th>
             </tr>
         </thead>
         <tbody id="boleta-body"></tbody>
@@ -604,6 +611,145 @@
         </div>
     </div>
 
+    <!-- SECCIÓN: OBSERVACIONES SOBRE ASISTENCIA E INVOLUCRAMIENTO DE PADRES DE FAMILIA -->
+    <div style="margin-top:28px; padding:18px 22px; border:2.5px solid var(--guinda); background:#fff8f8; border-radius:2px;">
+        <div style="font-family:'Crimson Pro',Georgia,serif; font-size:16px; font-weight:700; color:var(--guinda); text-transform:uppercase; letter-spacing:1px; margin-bottom:12px; border-bottom:1px solid #ddd; padding-bottom:8px;">
+            👪 Participación e Involucramiento de los Padres de Familia
+        </div>
+
+        <!-- Asistencia a reuniones -->
+        <div style="margin-bottom:14px;">
+            <div style="font-weight:700; font-size:13.5px; color:var(--guinda-dark); margin-bottom:6px; text-transform:uppercase; letter-spacing:0.4px;">
+                📅 Asistencia a reuniones de padres de familia
+            </div>
+            <div style="display:flex; gap:12px; flex-wrap:wrap; align-items:center; margin-bottom:6px;">
+                <label style="font-size:13px; font-weight:600;">Reuniones convocadas:
+                    <input type="number" min="0" max="20" value="" placeholder="0"
+                        style="width:52px; margin-left:6px; border:1px solid #bbb; border-radius:3px; padding:3px 6px; font-size:13px; font-weight:700; text-align:center;">
+                </label>
+                <label style="font-size:13px; font-weight:600;">Reuniones asistidas:
+                    <input type="number" min="0" max="20" value="" placeholder="0"
+                        style="width:52px; margin-left:6px; border:1px solid #bbb; border-radius:3px; padding:3px 6px; font-size:13px; font-weight:700; text-align:center;">
+                </label>
+                <label style="font-size:13px; font-weight:600;">Nivel de asistencia:
+                    <select style="margin-left:6px; border:1.5px solid #bbb; border-radius:3px; padding:3px 8px; font-size:13px; font-weight:700; color:#333;">
+                        <option value="">— Seleccionar —</option>
+                        <option value="puntual">✅ Siempre puntual</option>
+                        <option value="regular">🟡 Asistencia regular</option>
+                        <option value="irregular">🟠 Asistencia irregular</option>
+                        <option value="no_asiste">🔴 No asiste</option>
+                    </select>
+                </label>
+            </div>
+            <div style="font-size:11.5px; color:#888; font-style:italic;">
+                ⓘ Se considera "asistencia regular" cuando el padre/madre/apoderado participa en la mayoría de reuniones convocadas por la institución educativa.
+            </div>
+        </div>
+
+        <!-- Nivel de involucramiento -->
+        <div style="margin-bottom:14px;">
+            <div style="font-weight:700; font-size:13.5px; color:var(--guinda-dark); margin-bottom:8px; text-transform:uppercase; letter-spacing:0.4px;">
+                📊 Nivel de involucramiento en el aprendizaje del estudiante
+            </div>
+            <div style="display:flex; gap:10px; flex-wrap:wrap;">
+
+                <div style="flex:1; min-width:200px; border:1.5px solid #d0e0d0; border-radius:4px; padding:10px 12px; background:#f6fff6;">
+                    <div style="font-weight:700; font-size:12.5px; color:#1a7a1a; margin-bottom:6px;">
+                        ✅ SÍ APOYA — Indicadores observados:
+                    </div>
+                    <label style="display:flex; gap:6px; align-items:center; font-size:12px; margin-bottom:4px; cursor:pointer;">
+                        <input type="checkbox" style="width:14px; height:14px; cursor:pointer;">
+                        Supervisa tareas y trabajos en casa
+                    </label>
+                    <label style="display:flex; gap:6px; align-items:center; font-size:12px; margin-bottom:4px; cursor:pointer;">
+                        <input type="checkbox" style="width:14px; height:14px; cursor:pointer;">
+                        Cumple con materiales y útiles escolares
+                    </label>
+                    <label style="display:flex; gap:6px; align-items:center; font-size:12px; margin-bottom:4px; cursor:pointer;">
+                        <input type="checkbox" style="width:14px; height:14px; cursor:pointer;">
+                        Se comunica con el docente periódicamente
+                    </label>
+                    <label style="display:flex; gap:6px; align-items:center; font-size:12px; margin-bottom:4px; cursor:pointer;">
+                        <input type="checkbox" style="width:14px; height:14px; cursor:pointer;">
+                        Participa en actividades escolares
+                    </label>
+                    <label style="display:flex; gap:6px; align-items:center; font-size:12px; margin-bottom:4px; cursor:pointer;">
+                        <input type="checkbox" style="width:14px; height:14px; cursor:pointer;">
+                        Apoya el hábito lector en casa
+                    </label>
+                    <label style="display:flex; gap:6px; align-items:center; font-size:12px; cursor:pointer;">
+                        <input type="checkbox" style="width:14px; height:14px; cursor:pointer;">
+                        Motiva y refuerza el aprendizaje del estudiante
+                    </label>
+                </div>
+
+                <div style="flex:1; min-width:200px; border:1.5px solid #e0d0d0; border-radius:4px; padding:10px 12px; background:#fff8f8;">
+                    <div style="font-weight:700; font-size:12.5px; color:#b8000b; margin-bottom:6px;">
+                        ⚠️ NECESITA MEJORAR — Aspectos identificados:
+                    </div>
+                    <label style="display:flex; gap:6px; align-items:center; font-size:12px; margin-bottom:4px; cursor:pointer;">
+                        <input type="checkbox" style="width:14px; height:14px; cursor:pointer;">
+                        No supervisa las tareas escolares
+                    </label>
+                    <label style="display:flex; gap:6px; align-items:center; font-size:12px; margin-bottom:4px; cursor:pointer;">
+                        <input type="checkbox" style="width:14px; height:14px; cursor:pointer;">
+                        Incumple con útiles y materiales
+                    </label>
+                    <label style="display:flex; gap:6px; align-items:center; font-size:12px; margin-bottom:4px; cursor:pointer;">
+                        <input type="checkbox" style="width:14px; height:14px; cursor:pointer;">
+                        No responde mensajes ni comunicados
+                    </label>
+                    <label style="display:flex; gap:6px; align-items:center; font-size:12px; margin-bottom:4px; cursor:pointer;">
+                        <input type="checkbox" style="width:14px; height:14px; cursor:pointer;">
+                        No asiste a las citaciones del docente
+                    </label>
+                    <label style="display:flex; gap:6px; align-items:center; font-size:12px; margin-bottom:4px; cursor:pointer;">
+                        <input type="checkbox" style="width:14px; height:14px; cursor:pointer;">
+                        El estudiante llega tarde o falta con frecuencia
+                    </label>
+                    <label style="display:flex; gap:6px; align-items:center; font-size:12px; cursor:pointer;">
+                        <input type="checkbox" style="width:14px; height:14px; cursor:pointer;">
+                        Desconoce el avance académico del estudiante
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Valoración global del involucramiento -->
+        <div style="margin-bottom:14px;">
+            <div style="font-weight:700; font-size:13.5px; color:var(--guinda-dark); margin-bottom:8px; text-transform:uppercase; letter-spacing:0.4px;">
+                🏅 Valoración global del involucramiento del padre/madre/apoderado
+            </div>
+            <div style="display:flex; gap:8px; flex-wrap:wrap;">
+                <label style="cursor:pointer; display:flex; align-items:center; gap:6px; padding:7px 14px; border:2px solid #1a7a1a; border-radius:20px; background:#f0fff0; font-size:12.5px; font-weight:700; color:#1a7a1a;">
+                    <input type="radio" name="nivel-involucramiento" value="alto" style="cursor:pointer;"> ALTO
+                </label>
+                <label style="cursor:pointer; display:flex; align-items:center; gap:6px; padding:7px 14px; border:2px solid #b8860b; border-radius:20px; background:#fffbf0; font-size:12.5px; font-weight:700; color:#8a5a00;">
+                    <input type="radio" name="nivel-involucramiento" value="medio" style="cursor:pointer;"> MEDIO
+                </label>
+                <label style="cursor:pointer; display:flex; align-items:center; gap:6px; padding:7px 14px; border:2px solid #c0001a; border-radius:20px; background:#fff5f5; font-size:12.5px; font-weight:700; color:#c0001a;">
+                    <input type="radio" name="nivel-involucramiento" value="bajo" style="cursor:pointer;"> BAJO
+                </label>
+                <label style="cursor:pointer; display:flex; align-items:center; gap:6px; padding:7px 14px; border:2px solid #888; border-radius:20px; background:#f5f5f5; font-size:12.5px; font-weight:700; color:#555;">
+                    <input type="radio" name="nivel-involucramiento" value="ninguno" style="cursor:pointer;"> SIN INVOLUCRAMIENTO
+                </label>
+            </div>
+        </div>
+
+        <!-- Observaciones libres -->
+        <div>
+            <div style="font-weight:700; font-size:13.5px; color:var(--guinda-dark); margin-bottom:6px; text-transform:uppercase; letter-spacing:0.4px;">
+                📝 Observaciones del docente sobre la participación del apoderado/a
+            </div>
+            <textarea placeholder="Escriba aquí observaciones sobre la participación e involucramiento del padre/madre/apoderado en el proceso de aprendizaje del estudiante..."
+                style="width:100%; height:70px; font-size:13px; font-family:inherit; border:1.5px solid #bbb; border-radius:3px; padding:8px 10px; resize:vertical; line-height:1.5; color:#333; box-sizing:border-box;"></textarea>
+        </div>
+
+        <div style="font-size:11px; color:#aaa; margin-top:8px; font-style:italic; border-top:1px dashed #ddd; padding-top:8px;">
+            ⓘ La participación activa de la familia es clave para el éxito del aprendizaje. El involucramiento de los padres impacta directamente en el rendimiento, la asistencia y el bienestar emocional del estudiante. (D.S. N° 004-2010-ED y normas complementarias.)
+        </div>
+    </div>
+
     <div class="signatures">
         <div class="sig-box">Firma del Docente / Tutor</div>
         <div class="sig-box">Firma del Director(a)</div>
@@ -620,7 +766,7 @@
         { area: "INGLÉS COMO LENGUA EXTRANJERA", comps: ["Se comunica oralmente en inglés como lengua extranjera", "Lee diversos tipos de textos escritos en inglés como lengua extranjera", "Escribe diversos tipos de textos en inglés como lengua extranjera"] },
         { area: "MATEMÁTICA", comps: ["Resuelve problemas de cantidad", "Resuelve problemas de regularidad, equivalencia y cambio", "Resuelve problemas de forma, movimiento y localización", "Resuelve problemas de gestión de datos e incertidumbre"] },
         { area: "CIENCIA Y TECNOLOGÍA", comps: ["Indaga mediante métodos científicos para construir sus conocimientos", "Explica el mundo físico basándose en conocimientos sobre los seres vivos; materia y energía; biodiversidad, Tierra y Universo", "Diseña y construye soluciones tecnológicas para resolver problemas de su entorno"] },
-        { area: "EDUCACIÓN RELIGIOSA", comps: ["Construye su identidad como persona humana, amada por Dios, digna, libre y trascendente...", "Asume la experiencia del encuentro personal y comunitario con Dios..."] },
+        { area: "EDUCACIÓN RELIGIOSA", comps: ["Construye su identidad como persona humana, amada por Dios, digna, libre y trascendente, comprendiendo la doctrina de su propia religión", "Asume la experiencia del encuentro personal y comunitario con Dios en su proyecto de vida en coherencia con su creencia religiosa"] },
         { area: "COMPETENCIAS TRANSVERSALES", comps: ["Se desenvuelve en entornos virtuales generados por las TIC", "Gestiona su aprendizaje de manera autónoma"] }
     ];
     const escala = ["C", "B", "A", "AD"];
